@@ -351,3 +351,4 @@ jobs:
           target_dir: helm-charts
           index_dir: helm-charts
           linting: false
+          
