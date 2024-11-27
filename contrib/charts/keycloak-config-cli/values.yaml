@@ -16,6 +16,7 @@ image:
 # Count of re(!)tries. A value of 2 means 3 tries in total.
 backoffLimit: 1
 
+
 # annotations of the Job. Define helm post hook here
 annotations:
   "helm.sh/hook": "post-install,post-upgrade,post-rollback"
